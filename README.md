@@ -1,5 +1,39 @@
 # Apartment Rental Business Management Web Application
-This will be the readme file of the Apartment Rental Business Management Web Application.
+This assignment is a project for PRJ666 that involves creating a website for booking services in the apartment rental business.  
+The apartment rental business is a business that allows clients or residents to rent apartments because they do not have enough money to  afford morgages. The specific service that this application will cover is that it will allow the building manager to file work orders   online instead of using paper. As a result, the website will reduce the costs of spending money on paper, it will save environmental   resources and it will allow for faster delivery of work orders. The passwords will of course be hashed and salted to prevent password   leaks.  
+
+## This project will include these components:  
+
+### Angular Components:  
+* Login Component  
+* Register Component  
+* Account Details Component  
+* Work Order Component  
+* Chat Application Component  
+* Main Page Component  
+* About Component  
+* Contact Us Component
+* FAQ Component
+* Forgot Username Component
+* Forgot Password Component
+
+### Server Components:    
+* Data Service Component  
+* PostgreSQL Database  
+* Server Component - NodeJS
+
+### Styles:  
+* CSS Styling Files
+
+### Other:
+* ExpressJS
+   
+## Tests that will be used:
+* https://docs.travis-ci.com/
+
+## Sources used for styling:
+* https://prettier.io/docs/en/index.html
+
 
 ## Contributing
 
