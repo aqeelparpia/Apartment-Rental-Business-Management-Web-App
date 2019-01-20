@@ -1,0 +1,39 @@
+div.container{
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  
+
+  span{
+      font-size:20px;
+  }
+
+  .symbols{
+      font-size:13px;
+  }
+
+  label{
+      font-size:16px;
+  }
+
+  textarea{
+      padding-right:100px;
+      
+  }
+ 
+  button{
+      font-size: 16px;
+      
+      margin: auto;
+  }
+  .form-container input{
+    font-size: 16px;
+  }
+  .form-container textarea{
+    font-size: 16px;
+  }
+ 
+ 
+
+  
