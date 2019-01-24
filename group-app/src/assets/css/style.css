@@ -34,10 +34,23 @@ p {
   text-align: center;
 }
 .h2-edit{
-  padding-top: 44px;
+  padding-top: 25px;
+  font-size: 50px;
+  padding-bottom: 10px;
 }
 .paragraph{
 padding: 10px 100px;
+}
+.paragraph-2{
+  padding: 0px 100px;
+  text-align: center;
+  font-size: 20px;
+}
+.paragraph-3{
+  padding: 0px 100px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 #intro {
   background: url(../img/intro-bg.jpg) center center no-repeat fixed;
