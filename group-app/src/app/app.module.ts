@@ -9,6 +9,15 @@ import { FooterComponentComponent } from './footer-component/footer-component.co
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { ContactComponentComponent } from './contact-component/contact-component.component';
 import { AboutComponentComponent } from './about-component/about-component.component';
+import { LoginComponentComponent } from './login-component/login-component.component';
+import { RegisterComponentComponent } from './register-component/register-component.component';
+import { WorkorderComponentComponent } from './workorder-component/workorder-component.component';
+import { ChatappComponentComponent } from './chatapp-component/chatapp-component.component';
+import { ForgotuserComponentComponent } from './forgotuser-component/forgotuser-component.component';
+import { ForgotPassComponentComponent } from './forgot-pass-component/forgot-pass-component.component';
+import { AccountDetailsComponentComponent } from './account-details-component/account-details-component.component';
+import { ViewWorkOrderComponentComponent } from './view-work-order-component/view-work-order-component.component';
+import { FaqComponentComponent } from './faq-component/faq-component.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +27,16 @@ import { AboutComponentComponent } from './about-component/about-component.compo
     FooterComponentComponent,
     HomeComponentComponent,
     ContactComponentComponent,
-    AboutComponentComponent
+    AboutComponentComponent,
+    LoginComponentComponent,
+    RegisterComponentComponent,
+    WorkorderComponentComponent,
+    ChatappComponentComponent,
+    ForgotuserComponentComponent,
+    ForgotPassComponentComponent,
+    AccountDetailsComponentComponent,
+    ViewWorkOrderComponentComponent,
+    FaqComponentComponent
   ],
   imports: [
     BrowserModule,
