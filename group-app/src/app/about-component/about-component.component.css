@@ -1,3 +1,42 @@
 span{
     padding: 10px 100px;
 }
+
+.paragraph{
+    padding: 0 100px;
+    font-size: 16px;
+}
+
+.h1-edit{
+    text-align: center;
+}
+.paragraph-2{
+    text-align: center;
+    font-size: 20px;
+}
+.paragraph-3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.h2-edit{
+    padding-top:62px;
+    padding-bottom: 42px;
+}
+
+img{
+    background: center center no-repeat fixed;
+}
+
+.newContainer{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+#myCarousel{
+    margin: 100px 0;
+}
+
+
+

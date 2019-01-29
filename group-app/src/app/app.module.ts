@@ -18,6 +18,7 @@ import { ForgotPassComponentComponent } from './forgot-pass-component/forgot-pas
 import { AccountDetailsComponentComponent } from './account-details-component/account-details-component.component';
 import { ViewWorkOrderComponentComponent } from './view-work-order-component/view-work-order-component.component';
 import { FaqComponentComponent } from './faq-component/faq-component.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { FaqComponentComponent } from './faq-component/faq-component.component';
     ForgotPassComponentComponent,
     AccountDetailsComponentComponent,
     ViewWorkOrderComponentComponent,
-    FaqComponentComponent
+    FaqComponentComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
