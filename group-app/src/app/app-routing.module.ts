@@ -12,6 +12,9 @@ import { WorkorderComponentComponent } from './workorder-component/workorder-com
 import { AccountDetailsComponentComponent } from './account-details-component/account-details-component.component';
 import { ChatappComponentComponent } from './chatapp-component/chatapp-component.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { ViewWorkOrderComponentComponent } from './view-work-order-component/view-work-order-component.component';
+import { AddWorkOrderComponent } from './add-work-order/add-work-order.component';
+import { UpdateWorkOrderComponent } from './update-work-order/update-work-order.component';
 
 const routes: Routes = [
 { path: 'home', component: HomeComponentComponent },
@@ -26,6 +29,9 @@ const routes: Routes = [
 { path: 'workOrder', component: WorkorderComponentComponent},
 { path: 'account', component: AccountDetailsComponentComponent},
 { path: 'chatApp', component: ChatappComponentComponent},
+{path: 'viewWorkOrder', component: ViewWorkOrderComponentComponent},
+{path: 'addWorkOrder', component: AddWorkOrderComponent},
+{path: 'updateWorkOrder', component: UpdateWorkOrderComponent},
 { path: '**', component: NotFoundComponent}
 ];
 @NgModule({

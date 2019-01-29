@@ -19,6 +19,8 @@ import { AccountDetailsComponentComponent } from './account-details-component/ac
 import { ViewWorkOrderComponentComponent } from './view-work-order-component/view-work-order-component.component';
 import { FaqComponentComponent } from './faq-component/faq-component.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { AddWorkOrderComponent } from './add-work-order/add-work-order.component';
+import { UpdateWorkOrderComponent } from './update-work-order/update-work-order.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
     AccountDetailsComponentComponent,
     ViewWorkOrderComponentComponent,
     FaqComponentComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    AddWorkOrderComponent,
+    UpdateWorkOrderComponent
   ],
   imports: [
     BrowserModule,

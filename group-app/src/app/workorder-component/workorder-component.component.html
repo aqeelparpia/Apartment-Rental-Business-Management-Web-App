@@ -9,6 +9,43 @@
       </div>
     </div>
   </section>
-<p>
-  workorder-component works!
-</p>
+  <div class="containerTable">
+    <div class="buttonContainer">
+        <a routerLink="/addWorkOrder" class="btn btn-primary" role="button" aria-pressed="true">Add Work Order</a>
+        <a routerLink="/updateWorkOrder" class="btn btn-success" role="button" aria-pressed="true">Update Work Order</a>
+    </div>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Work Order ID</th>
+        <th scope="col">Creation Date</th>
+        <th scope="col">Description</th>
+        <th scope="col">Service Cost</th>
+        <th scope="col">Assigned To</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>       			  
+      <tr>
+        <th scope="row"><a routerLink="/viewWorkOrder">674594398</a></th>
+        <td>11/04/13</td>
+        <td>Windows replacement</td>
+        <td>$2500</td>
+        <td>Stephen Kermer</td>
+        <td><a routerLink="/addWorkOrder" class="btn btn-danger" role="button" aria-pressed="true">Delete</a></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  
