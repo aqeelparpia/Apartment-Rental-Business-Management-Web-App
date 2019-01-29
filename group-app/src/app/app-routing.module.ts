@@ -9,10 +9,13 @@ import { FaqComponentComponent } from './faq-component/faq-component.component';
 import { ForgotuserComponentComponent } from './forgotuser-component/forgotuser-component.component';
 import { ForgotPassComponentComponent } from './forgot-pass-component/forgot-pass-component.component';
 import { WorkorderComponentComponent } from './workorder-component/workorder-component.component';
+import { AccountDetailsComponentComponent } from './account-details-component/account-details-component.component';
+import { ChatappComponentComponent } from './chatapp-component/chatapp-component.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
 { path: 'home', component: HomeComponentComponent },
-{ path: '', component: HomeComponentComponent },
+{ path: '', redirectTo: '/home', pathMatch: 'full'},
 { path: 'about', component: AboutComponentComponent },
 { path: 'login', component: LoginComponentComponent},
 { path: 'register', component: RegisterComponentComponent},
@@ -20,7 +23,10 @@ const routes: Routes = [
 { path: 'contact', component: ContactComponentComponent},
 { path: 'forgotPass', component: ForgotPassComponentComponent},
 { path: 'forgotUser', component: ForgotuserComponentComponent},
-{ path: 'workOrder', component: WorkorderComponentComponent}
+{ path: 'workOrder', component: WorkorderComponentComponent},
+{ path: 'account', component: AccountDetailsComponentComponent},
+{ path: 'chatApp', component: ChatappComponentComponent},
+{ path: '**', component: NotFoundComponent}
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

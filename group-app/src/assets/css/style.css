@@ -473,7 +473,10 @@ body.nobg .section1 {
 #intro {
   background: url(../img/intro-bg.jpg) center center no-repeat fixed;
   background-size: cover;
-  padding: 80px 0;
+  padding: 290px 0;
+  
+  border-bottom: 1px solid #3E4246;
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -781,7 +784,7 @@ body.nobg .section1 {
 }
 
 .footer-menu {
-  margin: 10px 0;
+  margin: 0px 0;
 }
 
 .footer-left p {
@@ -819,7 +822,7 @@ body.nobg .section1 {
   padding: 0;
   font-size: 12px;
   border-top: 1px solid #3E4246;
-  margin-top: 15px;
+  margin-top: 0px;
   color: #fff;
 }
 
@@ -2663,3 +2666,4 @@ a.readmore {
 section {
   overflow: hidden;
 }
+
